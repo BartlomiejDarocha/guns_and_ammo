@@ -2,120 +2,144 @@
   "guns": [
     {
       "categoryId": 1,
+      "id":1,
       "ammo": "9mm",
       "name": "SIG Sauer P320 X-FIVE 9mm Luger Semi Auto"
     },
     {
       "categoryId": 1,
+      "id":2,
       "ammo": "9mm",
       "name": "glock 9"
     },
     {
       "categoryId": 1,
+      "id":3,
       "ammo": "9mm",
       "name": "Walther P99"
     },
     {
       "categoryId": 1,
+      "id":4,
       "ammo": "9mm",
       "name": "Century Arms TP9SA Mod.2 9mm Luger"
     },
     {
       "categoryId": 1,
+      "id":5,
       "ammo": "9mm",
       "name": "Colt 1911 Gold Cup Lite Semi Auto Pistol 9mm"
     },
     {
       "categoryId": 1,
+      "id":6,
       "ammo": "9mm",
       "name": "H&K VP9-B Semi Auto Pistol 9mm Luge"
     },
     {
       "categoryId": 1,
+      "id":7,
       "ammo": "9mm",
       "name": "glock 40"
     },
     {
       "categoryId": 1,
+      "id":8,
       "ammo": ".45 ACP",
       "name": "Colt Combat Commander 1911 .45 ACP"
     },
     {
       "categoryId": 1,
+      "id":9,
       "ammo": ".44 Magnum",
       "name": "Desert Eagle"
     },
     {
       "categoryId": 1,
+      "id":10,
       "ammo": ".357 Magnum",
       "name": "Smith & Wesson's .357 magnum"
     },
     {
       "categoryId": 1,
+      "id":11,
       "ammo": ".22 Long Rifle",
       "name": "BFR 22H10 .22 Hornet"
     },
     {
       "categoryId": 1,
+      "id":12,
       "ammo": ".22 Hornet",
       "name": "Browning Buck Mark Plus Lite Flute UFX SR .22 LR Semi Auto "
     },
     {
       "categoryId": 1,
+      "id":13,
       "ammo": ".44 Magnum",
       "name": "Smith & Wesson's .44 Magnum"
     },
     {
       "categoryId": 1,
+      "id":14,
       "ammo": ".357 Magnum",
       "name": "Chiappa Rhino 60DS Double Action Revolver"
     },
     {
       "categoryId": 1,
+      "id":15,
       "ammo": ".357 Magnum",
       "name": "Taylor's & Co Cattleman"
     },
     {
       "categoryId": 2,
+      "id":16,
       "ammo": ".22 Long Rifle",
       "name": "Remington 597 Rimfire Semi-Auto Rifle"
     },
     {
       "categoryId": 2,
+      "id":17,
       "ammo": ".22 Long Rifle",
       "name": "Marlin Model 60 Semi-Auto Rimfire Rifle"
     },
     {
       "categoryId": 2,
+      "id":18,
       "ammo": ".22 Long Rifle",
       "name": "Savage Mark II G Bolt-Action Rimfire Rifle"
     },
     {
       "categoryId": 2,
+      "id":19,
       "ammo": ".45-70 Government",
       "name": "Marlin 1895G Lever-Action Rifle"
     },
     {
       "categoryId": 2,
+      "id":20,
       "ammo": ".22 Long Rifle",
       "name": "Henry Youth Lever-Action Rimfire Rifle"
     },
     {
       "categoryId": 2,
+      "id":21,
       "ammo": ".22 Long Rifle",
       "name": "Mossberg 464 SPX Lever-Action Rimfire Rifle"
     },{
       "categoryId": 2,
+      "id":22,
       "ammo": ".45-70 Government",
       "name": "Madadadadion Rifle"
     },
     {
       "categoryId": 2,
+      "id":23,
       "ammo": ".22 Long Rifle",
       "name": "Hdasdadamfire Rifle"
     },
     {
       "categoryId": 2,
+      "id":24,
       "ammo": ".22 Long Rifle",
       "name": "MosdsadsadadaAction Rimfire Rifle"
     }

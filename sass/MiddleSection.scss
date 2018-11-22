@@ -1,0 +1,49 @@
+.middleSection{
+    position: relative;
+}
+.boxlist{ 
+    height: 900px;
+    width: 825px;
+    background-color: rgb(164, 167, 163);
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.showBox{
+    margin: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(104, 21, 21);
+}
+.boxBreaker{
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    li {
+      
+      margin-left: 10px;
+      color:  blue;
+      display: inline;
+      font-size: 25px;
+  
+    }
+}
+.nextLI{
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    right: 130px;
+    bottom: 0;  
+}
+.prevLI{
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    left: 10px;
+    bottom: 0;
+}
