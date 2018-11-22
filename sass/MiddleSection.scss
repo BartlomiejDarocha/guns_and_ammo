@@ -1,20 +1,31 @@
 .middleSection{
     position: relative;
+    height: 700px;
+    width: 100%;
 }
 .boxlist{ 
-    height: 900px;
-    width: 825px;
-    background-color: rgb(164, 167, 163);
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 746px;
+    height: 700px;
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
 }
 .showBox{
-    margin: 10px;
-    border: 1px solid black;
+    margin: 5px;
+    border-radius: 5px;
     height: 200px;
-    width: 300px;
-    background-color: rgb(104, 21, 21);
+    width: 325px;
+    background-color: rgba(190, 182, 182, 0.61);
+    h3{ color: rgb(17, 16, 16);
+        text-decoration: none;
+    }
+    img{
+        
+    }
+
+    
 }
 .boxBreaker{
     position: absolute;

@@ -16,7 +16,7 @@ class SearchBar extends React.Component {// props setFilterTextProps , filterTex
         render() {
             return (
                 <form >
-                    <input onChange={this.handlerText} type="text" value={this.props.filterText} placeholder="Search..." />
+                    <input className="sercher" onChange={this.handlerText} type="text" size="50" value={this.props.filterText} placeholder="Search..." />
                     {/* <input onChange={this.handlerBox1} type="checkbox" value={this.props.handguns} checked={this.props.handguns ? true : false} /><label>handguns</label>
                     <input onChange={this.handlerBox2} type="checkbox" value={this.props.refiles} checked={this.props.rifles ? true : false} /><label>rifles</label> */}
                 </form>

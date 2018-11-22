@@ -1,5 +1,19 @@
 .ChoseProductList{
-    width: 150px;
-    height: 900px;
-    background-color: rgb(202, 38, 9);
+    width: 190px;
+    height: 700px;
+    background-color: rgba(44, 41, 41, 0.774);
+    ul{
+        color: white;
+        li{
+            text-align: center;
+            align-items: center;
+            display: block;
+            height: 50px;
+            width: 100%;
+            background:transparent;
+         
+            
+        }
+    }
 }
+

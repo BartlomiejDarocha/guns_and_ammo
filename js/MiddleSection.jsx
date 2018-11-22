@@ -24,7 +24,7 @@ class MiddleSection extends React.Component { //props database, handguns,filterT
                 add = true
             }
             if (add === true) {
-                boxs.push(<Link to={`/products/${this.props.database[key].id}`}>
+                boxs.push(<Link style={{textDecoration:'none'}} to={`/products/${this.props.database[key].id}`}>
                         <div className='showBox'>
                             <h3>{this.props.database[key].name}</h3>
                             <h4>{this.props.database[key].ammo}</h4>

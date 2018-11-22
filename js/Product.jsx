@@ -10,7 +10,6 @@ class Product extends React.Component {
         }
     }
     componentDidMount() {
-        //console.log(this.props.match.params.id, '??')
         fetch(`http://localhost:3000/guns?id=${this.props.match.params.id}`)
             .then(resp => {
                 if (resp.ok) {

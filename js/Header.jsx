@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Style from '../sass/style.scss'
+import Style from '../sass/Header.scss'
 
 
 class Header extends React.Component {
@@ -60,16 +60,12 @@ class Header extends React.Component {
                 <div className="banner">
                     <div className='banner-content'>
                         <div className="banner1" style={{ display: this.state.banNum === 1 ? 'block' : 'none' }}>
-                            BANNER1
                         </div>
                         <div className="banner2" style={{ display: this.state.banNum === 2 ? 'block' : 'none' }}>
-                            BANNER2
                         </div>
                         <div className="banner3" style={{ display: this.state.banNum === 3 ? 'block' : 'none' }}>
-                            BANNER3
                         </div>
                         <div className="banner4" style={{ display: this.state.banNum === 4 ? 'block' : 'none' }}>
-                            BANNER4
                         </div>
                     </div>
                     <ul className="banner-controls">

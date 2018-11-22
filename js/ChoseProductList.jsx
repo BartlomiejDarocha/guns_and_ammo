@@ -9,19 +9,24 @@ class ChoseProductList extends React.Component{ //
     }
     handleRifles = () => {
             this.props.setOnlnyRifles(!this.props.rifles)
-
-        }
+    }
+    handleShotguns = () => {
+        this.props.setOnlnyRifles(!this.props.rifles)
+    }
+    handleAmmunition = () => {
+        this.props.setOnlnyRifles(!this.props.rifles)
+    }      
     render(){
         return(
             <div className='ChoseProductList'>
-                <ul> products
-                    <li onClick={this.handleHandguns} style={{backgroundColor:this.props.handguns ? 'green' : 'red'}}>Handguns</li>
-                    <li onClick={this.handleRifles} style={{backgroundColor:this.props.rifles ? 'green' : 'red'}}>Rifles</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
-                    <li>1</li>
+                <ul>
+                    <li onClick={this.handleHandguns} style={{backgroundColor:this.props.handguns ? 'transparent' : 'red'}}>Handguns</li>
+                    <li onClick={this.handleRifles} style={{backgroundColor:this.props.rifles ? 'transparent' : 'red'}}>Rifles</li>
+                    <li onClick={this.handleShotguns} style={{backgroundColor:this.props.Shotguns ? 'transparent' : 'red'}}>Shotguns</li>
+                    <li onClick={this.handleAmmunition} style={{backgroundColor:this.props.Ammunition ? 'transparent' : 'red'}}>Ammunition</li>
+                    <li>Bows</li>
+                    <li>Scopes</li>
+                    <li>Accessories</li>
                 </ul>
             </div>
         )

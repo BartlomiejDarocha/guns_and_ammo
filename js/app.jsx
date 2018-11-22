@@ -5,6 +5,7 @@ import SearcherProduct from './SearcherProduct.jsx';
 import ChoseProductList from './ChoseProductList.jsx';
 import MiddleSection from './MiddleSection.jsx';
 import Product from './Product.jsx';
+import BasketList from './BasketList.jsx'
 import Style from '../sass/style.scss'
 import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
@@ -77,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         render() {
             return (
+                
                 <HashRouter>
                     <div>
                         <Header />
@@ -104,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             />}/>
                             <Route path="/products/:id" render={props => <Product {...props} />} />
                         </Switch>
+                        <BasketList/>
                         
                         </div>     
                     </div>

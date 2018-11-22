@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Style from '../sass/style.scss'
+import Style from '../sass/SearcherProduct.scss'
 import SearchBar from './SearchBar.jsx'
 
 class SearcherProduct extends React.Component{

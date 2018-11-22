@@ -1,0 +1,183 @@
+{
+  "guns": [
+    {
+      "categoryId": 1,
+      "id":1,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": "9mm",
+      "name": "SIG Sauer P320 X-FIVE 9mm Luger Semi Auto"
+    },
+    {
+      "categoryId": 1,
+      "id":2,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": "9mm",
+      "name": "glock 9"
+    },
+    {
+      "categoryId": 1,
+      "id":3,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": "9mm",
+      "name": "Walther P99"
+    },
+    {
+      "categoryId": 1,
+      "id":4,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": "9mm",
+      "name": "Century Arms TP9SA Mod.2 9mm Luger"
+    },
+    {
+      "categoryId": 1,
+      "id":5,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": "9mm",
+      "name": "Colt 1911 Gold Cup Lite Semi Auto Pistol 9mm"
+    },
+    {
+      "categoryId": 1,
+      "id":6,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": "9mm",
+      "name": "H&K VP9-B Semi Auto Pistol 9mm Luge"
+    },
+    {
+      "categoryId": 1,
+      "id":7,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": "9mm",
+      "name": "glock 40"
+    },
+    {
+      "categoryId": 1,
+      "id":8,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".45 ACP",
+      "name": "Colt Combat Commander 1911 .45 ACP"
+    },
+    {
+      "categoryId": 1,
+      "id":9,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".44 Magnum",
+      "name": "Desert Eagle"
+    },
+    {
+      "categoryId": 1,
+      "id":10,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".357 Magnum",
+      "name": "Smith & Wesson's .357 magnum"
+    },
+    {
+      "categoryId": 1,
+      "id":11,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "BFR 22H10 .22 Hornet"
+    },
+    {
+      "categoryId": 1,
+      "id":12,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Hornet",
+      "name": "Browning Buck Mark Plus Lite Flute UFX SR .22 LR Semi Auto "
+    },
+    {
+      "categoryId": 1,
+      "id":13,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".44 Magnum",
+      "name": "Smith & Wesson's .44 Magnum"
+    },
+    {
+      "categoryId": 1,
+      "id":14,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".357 Magnum",
+      "name": "Chiappa Rhino 60DS Double Action Revolver"
+    },
+    {
+      "categoryId": 1,
+      "id":15,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".357 Magnum",
+      "name": "Taylor's & Co Cattleman"
+    },
+    {
+      "categoryId": 2,
+      "id":16,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "Remington 597 Rimfire Semi-Auto Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":17,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "Marlin Model 60 Semi-Auto Rimfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":18,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "Savage Mark II G Bolt-Action Rimfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":19,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".45-70 Government",
+      "name": "Marlin 1895G Lever-Action Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":20,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "Henry Youth Lever-Action Rimfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":21,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "Mossberg 464 SPX Lever-Action Rimfire Rifle"
+    },{
+      "categoryId": 2,
+      "id":22,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".45-70 Government",
+      "name": "Madadadadion Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":23,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "Hdasdadamfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":24,
+      "des": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non similique, placeat exercitationem consequuntur mollitia necessitatibus dolore voluptatum esse debitis officiis quam accusamus quaerat rem vero",
+      "ammo": ".22 Long Rifle",
+      "name": "MosdsadsadadaAction Rimfire Rifle"
+    }
+
+  ],
+  "category":[
+    {
+      "id":1 ,
+      "name": "handGuns"
+    },
+    {
+      "id" :2,
+      "name": "rifle"
+    }
+  ]
+    
+}
