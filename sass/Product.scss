@@ -1,5 +1,59 @@
 .productBox{
-    height:300px;
-    width: 600px;
-    border: 1px solid black;
-  }
+  position: relative;
+    height:850px;
+    width: 640px;
+    color: rgb(5, 4, 4);
+    
+      h1{
+        text-align: center;
+      }
+      h2{
+        padding: 30px;
+      }
+      p{
+
+        padding: 30px;
+        font-size: 22px;
+      }
+      button{
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        left: 460px;
+        bottom: 150px;
+        margin-left: 10px;
+        height: 50px;
+        width: 125px;
+        border: none;
+        background: #ffffff;
+        border-radius: 5px;
+      }
+      div{
+        border-radius: 5px;
+        margin: 10px;
+        height: 95%;
+        widows: 95%;
+        background-color:  rgba(190, 182, 182, 0.61);
+        .productBoxImg{
+            margin-left: 100px;
+            max-width: 70%;
+            height: auto;
+        }
+        .buttonBack{
+          font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        left: 300px;
+        bottom: 150px;
+        margin-left: 10px;
+        height: 50px;
+        width: 125px;
+        border: none;
+        background: #ffffff;
+        border-radius: 5px;
+
+        }
+        
+      }
+    
+}

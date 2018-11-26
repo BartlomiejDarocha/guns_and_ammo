@@ -6,6 +6,7 @@ import ChoseProductList from './ChoseProductList.jsx';
 import MiddleSection from './MiddleSection.jsx';
 import Product from './Product.jsx';
 import BasketList from './BasketList.jsx'
+import Fotter from './Fotter.jsx'
 import Style from '../sass/style.scss'
 import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
@@ -15,12 +16,16 @@ document.addEventListener('DOMContentLoaded', function () {
         constructor(props) {
             super(props);
             this.state = {
-                handguns: true,
-                rifles: true,
+                flag:false,
+                handguns: false,
+                rifles: false,
+                Shotguns:false,
+                Ammunition:false,
                 text: "",
                 gundataBase: null,
                 num1: 0,
                 num2: 6,
+                cardItem:[],
             }
         }
         /////Data base
@@ -42,21 +47,98 @@ document.addEventListener('DOMContentLoaded', function () {
                 .catch(err => console.log(err));
         }
         ////Methods
+        //LEFT SIDE
         setOnlnyHandguns = (bool) => {
             this.setState({
-                handguns: bool,
+                flag:bool,
+            },()=>{
+                if(this.state.flag===true){
+                    this.setState({
+                        handguns:false,
+                        rifles: true,
+                        Shotguns:true,
+                        Ammunition:true
+                    })
+                }else{
+                    this.setState({
+                        handguns:false,
+                        rifles: false,
+                        Shotguns:false,
+                        Ammunition:false
+                    })
+                }
             })
-        }
+         }
         setOnlnyRifles = (bool) => {
             this.setState({
-                rifles: bool,
+                flag:bool,
+            },()=>{
+                if(this.state.flag===true){
+                    this.setState({
+                        handguns:true,
+                        rifles: false,
+                        Shotguns:true,
+                        Ammunition:true
+                    })
+                }else{
+                    this.setState({
+                        handguns:false,
+                        rifles: false,
+                        Shotguns:false,
+                        Ammunition:false
+                    })
+                }
             })
         }
+        setOnlnyShotguns = (bool)=>{
+            this.setState({
+                flag:bool,
+            },()=>{
+                if(this.state.flag===true){
+                    this.setState({
+                        handguns:true,
+                        rifles: true,
+                        Shotguns:false,
+                        Ammunition:true
+                    })
+                }else{
+                    this.setState({
+                        handguns:false,
+                        rifles: false,
+                        Shotguns:false,
+                        Ammunition:false
+                    })
+                }
+            })
+        }
+        setOnlnyAmmunition =(bool)=>{
+            this.setState({
+                flag:bool,
+            },()=>{
+                if(this.state.flag===true){
+                    this.setState({
+                        handguns:true,
+                        rifles: true,
+                        Shotguns:true,
+                        Ammunition:false
+                    })
+                }else{
+                    this.setState({
+                        handguns:false,
+                        rifles: false,
+                        Shotguns:false,
+                        Ammunition:false
+                    })
+                }
+            })
+    } 
+        //TEXT FILTER
         setFilterText = (text) => {
             this.setState({
                 text: text, num1: 0, num2: 6
             })
         }
+        //BOX BREAKER
         nextBoxes = () => {
             this.setState({
                 num1: this.state.num1 + 6,
@@ -69,11 +151,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 num2: this.state.num2 - 6,
             })
         }
-        getInside = () => {
+        addToCard=(text)=>{
+            const tempArry =this.state.cardItem.slice();
+            tempArry.push(text);
             this.setState({
-                display: false,
-            }, () => {
-                console.log(this.state.display, "DISPLAY TEST")
+                cardItem: tempArry,
+            },()=>{
+                console.log(this.state.cardItem)
+            })
+        }
+        removeFromList=(text)=>{
+            const tempArry = this.state.cardItem.slice();
+            const temp2 = tempArry.filter((t)=>{
+                return t!==text
+            });
+            this.setState({
+                cardItem:temp2,
             })
         }
         render() {
@@ -88,10 +181,15 @@ document.addEventListener('DOMContentLoaded', function () {
                         />
                         <div className='section'>
                         <ChoseProductList 
+                        flag={this.state.flag}
                         setOnlnyHandguns={this.setOnlnyHandguns}
                         handguns={this.state.handguns}
                         setOnlnyRifles={this.setOnlnyRifles}
                         rifles={this.state.rifles}
+                        setOnlnyShotguns = {this.setOnlnyShotguns}//??
+                        Shotguns={this.state.Shotguns}//!
+                        setOnlnyAmmunition = {this.setOnlnyAmmunition}//??
+                        Ammunition={this.state.Ammunition}//!
                         />
                         <Switch>
                         <Route path="/" exact render={props => <MiddleSection {...props}
@@ -104,11 +202,15 @@ document.addEventListener('DOMContentLoaded', function () {
                             previusBoxes ={this.previusBoxes}
                             nextBoxes={this.nextBoxes}
                             />}/>
-                            <Route path="/products/:id" render={props => <Product {...props} />} />
+                            <Route path="/products/:id" render={props => 
+                            <Product addToCard={this.addToCard} 
+                            {...props} />} />
                         </Switch>
-                        <BasketList/>
-                        
-                        </div>     
+                        <BasketList cardItem={this.state.cardItem}
+                                    removeFromList={this.removeFromList}
+                        />
+                        </div>  
+                        <Fotter/>   
                     </div>
                 </HashRouter>
             )

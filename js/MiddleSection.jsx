@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Style from '../sass/MiddleSection.scss'
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class MiddleSection extends React.Component { //props database, handguns,filterText,rifles,num1,num2
     render() {
@@ -17,24 +17,28 @@ class MiddleSection extends React.Component { //props database, handguns,filterT
                     add = false;
                 }
             }
-            if (this.props.handguns === true && this.props.database[key].categoryId === 1 && this.props.filterText === "") {
+            if (this.props.handguns === false && this.props.database[key].categoryId === 1 && this.props.filterText === "") {
                 add = true
             }
-            if (this.props.rifles === true && this.props.database[key].categoryId === 2 && this.props.filterText === "") {
+            if (this.props.rifles === false && this.props.database[key].categoryId === 2 && this.props.filterText === "") {
                 add = true
             }
             if (add === true) {
-                boxs.push(<Link style={{textDecoration:'none'}} to={`/products/${this.props.database[key].id}`}>
-                        <div className='showBox'>
-                            <h3>{this.props.database[key].name}</h3>
-                            <h4>{this.props.database[key].ammo}</h4>
+                boxs.push(<Link style={{ textDecoration: 'none' }} to={`/products/${this.props.database[key].id}`}>
+                    <div className='showBox'>
+                        <h3>{this.props.database[key].name}</h3>
+                        <div>
+                            <img className="showBoxImg" src={`../img/${this.props.database[key].img}`}></img>
+                            <h2>Price {this.props.database[key].pirce}</h2>
                         </div>
-                    </Link>
+
+                    </div>
+                </Link>
                 )
-            } 
+            }
         }
-        for (let i = 0; i <boxs.length / 6; i++) {
-            libox.push(<li style={{ color: (i * 6) === this.props.num1 ? "red" : "black" }}>*</li>)
+        for (let i = 0; i < boxs.length / 6; i++) {
+            libox.push(<li style={{ color: (i * 6) === this.props.num1 ? "white" : "black" }}>*</li>)
         }
         let newBox = boxs.slice(this.props.num1, this.props.num2);
         return (

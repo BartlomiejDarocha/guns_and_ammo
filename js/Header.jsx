@@ -22,7 +22,7 @@ class Header extends React.Component {
                 })
             }
 
-        }, 5000)
+        }, 7000)
     }
     componentWillUnmount() {
         clearInterval(this.intervalID);
@@ -51,10 +51,11 @@ class Header extends React.Component {
         return (
             <header>
                 <div className='header-navi'>
+                    <h1>Pirmal Guns for You</h1>
                     <ul>
-                        <li>Inny teskt</li>
-                        <li>TESKT</li>
-                        <li>TESKT</li>
+                        <li>Sing In</li>
+                        <li>Menu</li>
+                        <li>Contact</li>
                     </ul>
                 </div>
                 <div className="banner">

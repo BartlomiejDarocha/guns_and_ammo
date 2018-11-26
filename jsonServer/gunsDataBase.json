@@ -1,0 +1,213 @@
+{
+  "guns": [
+    {
+      "categoryId": 1,
+      "id":1,
+      "img":"id1.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": "9mm",
+      "pirce": "450$",
+      "name": "SIG Sauer P320 X-FIVE 9mm Luger Semi Auto"
+    },
+    {
+      "categoryId": 1,
+      "id":2,
+      "img":"id2.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": "9mm",
+      "pirce": "350$",
+      "name": "Glock 9"
+    },
+    {
+      "categoryId": 1,
+      "id":3,
+      "img":"id3.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": "9mm",
+      "pirce": "650$",
+      "name": "Walther P99"
+    },
+    {
+      "categoryId": 1,
+      "id":4,
+      "img":"id4.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": "9mm",
+      "pirce": "499$",
+      "name": "Century Arms TP9SA Mod.2 9mm Luger"
+    },
+    {
+      "categoryId": 1,
+      "id":5,
+      "img":"id5.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": "9mm",
+      "pirce": "250$",
+      "name": "Colt 1911 Gold Cup Lite Semi Auto Pistol 9mm"
+    },
+    {
+      "categoryId": 1,
+      "id":6,
+      "img":"id6.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": "9mm",
+      "pirce": "845$",
+      "name": "H&K VP9-B Semi Auto Pistol 9mm Luge"
+    },
+    {
+      "categoryId": 1,
+      "id":7,
+      "img":"id7.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": "9mm",
+      "pirce": "250$",
+      "name": "Glock 40"
+    },
+    {
+      "categoryId": 1,
+      "id":8,
+      "img":"id8.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".45 ACP",
+      "pirce": "742$",
+      "name": "Colt Combat Commander 1911 .45 ACP"
+    },
+    {
+      "categoryId": 1,
+      "id":9,
+      "img":"id9.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".44 Magnum",
+      "pirce": "255$",
+      "name": "Desert Eagle"
+    },
+    {
+      "categoryId": 1,
+      "id":10,
+      "img":"id10.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".357 Magnum",
+      "pirce": "640$",
+      "name": "Smith & Wesson's .357 magnum"
+    },
+    {
+      "categoryId": 1,
+      "id":11,
+      "img":"id11.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "pirce": "950$",
+      "name": "BFR 22H10 .22 Hornet"
+    },
+    {
+      "categoryId": 1,
+      "id":12,
+      "img":"id12.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Hornet",
+      "pirce": "550$",
+      "name": "Browning Buck Mark Plus Lite Flute UFX SR .22 LR Semi Auto "
+    },
+    {
+      "categoryId": 1,
+      "id":13,
+      "img":"id13.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".44 Magnum",
+      "pirce": "480$",
+      "name": "Smith & Wesson's .44 Magnum"
+    },
+    {
+      "categoryId": 1,
+      "id":14,
+      "img":"id14.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".357 Magnum",
+      "pirce": "350$",
+      "name": "Chiappa Rhino 60DS Double Action Revolver"
+    },
+    {
+      "categoryId": 1,
+      "id":15,
+      "img":"id15.jpg",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".357 Magnum",
+      "pirce": "650$",
+      "name": "Taylor's & Co Cattleman"
+    },
+    {
+      "categoryId": 2,
+      "id":16,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "name": "Remington 597 Rimfire Semi-Auto Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":17,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "name": "Marlin Model 60 Semi-Auto Rimfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":18,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "name": "Savage Mark II G Bolt-Action Rimfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":19,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".45-70 Government",
+      "name": "Marlin 1895G Lever-Action Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":20,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "name": "Henry Youth Lever-Action Rimfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":21,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "name": "Mossberg 464 SPX Lever-Action Rimfire Rifle"
+    },{
+      "categoryId": 2,
+      "id":22,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".45-70 Government",
+      "name": "Madadadadion Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":23,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "name": "Hdasdadamfire Rifle"
+    },
+    {
+      "categoryId": 2,
+      "id":24,
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam LLorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut autem, doloremque officiis sequi cupiditate libero similique iusto quibusdam voluptatem est iste ex quo dignissimos?",
+      "ammo": ".22 Long Rifle",
+      "name": "MosdsadsadadaAction Rimfire Rifle"
+    }
+
+  ],
+  "category":[
+    {
+      "id":1 ,
+      "name": "handGuns"
+    },
+    {
+      "id" :2,
+      "name": "rifle"
+    }
+  ]
+    
+}

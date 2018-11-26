@@ -1,13 +1,13 @@
 .middleSection{
     position: relative;
-    height: 700px;
+    height: 850px;
     width: 100%;
 }
 .boxlist{ 
     padding-left: 30px;
     background-color: rgba(0, 0, 0, 0.295);
     width: 746px;
-    height: 700px;
+    height: 850px;
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
@@ -15,22 +15,27 @@
 .showBox{
     margin: 5px;
     border-radius: 5px;
-    height: 200px;
+    height: 250px;
     width: 325px;
     background-color: rgba(190, 182, 182, 0.61);
-    h3{ color: rgb(17, 16, 16);
+    h3 ,h2{ color: rgb(17, 16, 16);
         text-decoration: none;
     }
-    img{
+    div{
+        .showBoxImg{
+            max-width: 70%;
+            height: auto;
+        }
         
+    
     }
-
+    
     
 }
 .boxBreaker{
     position: absolute;
     bottom: 0;
-    left: 37%;
+    left: calc(50% - 45px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,14 +52,16 @@
 .nextLI{
     position: absolute;
     font-size: 20px;
-    color: red;
-    right: 130px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    right: 10px;
     bottom: 0;  
 }
 .prevLI{
     position: absolute;
     font-size: 20px;
-    color: red;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
     left: 10px;
     bottom: 0;
 }
